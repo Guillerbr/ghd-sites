@@ -15,8 +15,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 //components and pages
 import App from "../App";
+import Contato from "..pages/contato"
 import  ErrorPage   from "../pages/error";
-
 
 //import  List  from "../pages/test";
 //import { ButtonAppBar } from "../components/menu/menu-top-bar.js";
@@ -32,7 +32,7 @@ const Routes = () => (
     {/*
       <Route exact path="/" component={App} /> 
       <Route path="/search" component={Search} />
-      
+      <Route path="/menu" component={ButtonAppBar} /> 
       <Route path="/login" component={Login} />
       <Route path="/company" component={CompanyProfile} />
       <Route path="/companynews" component={CompanyNews} />
@@ -44,9 +44,12 @@ const Routes = () => (
       */}
 
       <Route exact path="/" component={App} />
+      <Route exact path="/contato" component={Contato} />
       <Route component={ErrorPage} />  
+      
+      
        
-      {/* <Route path="/menu" component={ButtonAppBar} /> */}
+      
     </Switch>
   </BrowserRouter>
 );
