@@ -1,5 +1,156 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# Nodejs and Reactjs 
+
+This project uses reactjs as a frontend.
+Make sure they are installed correctly.
+
+
+## Description
+
+This project aims to provide an interface environment for stock, forex 
+and cryptocurrency quotes. In addition to this general stock information,
+such as: Company news, Economic Calendar, IPO Calendar and others.
+
+Using the APIs to list various assets on the main stock exchanges in the world.
+In addition to a large amount of graphics and additional information, with high
+usability for the customer interface.
+
+
+## Roadmap
+
+We created a map in the Trello application to be able to follow and report the development processes.
+
+Submit your suggestion for implementation on Github Issues, we will discuss the need and add it to the roadmap if possible.
+Access is public!
+
+https://trello.com/b/99M365oQ/kanban-template-cotations-finance-exchange
+
+## UI Design,Prototype-Figma
+
+To design our user interface, screen prototypes and all kinds of design features, we will use the Figma tool.
+The prototypes are public and are on the link:
+
+https://www.figma.com/file/RcrOJDkiqORSbEkkyQ1AkV/Cotations-Finance-React?node-id=0%3A1
+
+
+## Alpha Vantage API
+
+Alpha Vantage Inc. is a leading provider of APIs for realtime and historical data on stocks,
+forex (FX), and digital/crypto currencies.
+
+https://www.alphavantage.co
+
+
+## Finnhub API
+
+Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto.
+Stock Fundamentals,Company News,Economic Calendar,IPO Calendar and others.
+
+https://finnhub.io/
+
+
+## Online Project Example
+The project is under development but there is already an online example hosted.
+
+https://cotation-info-finance-react.firebaseapp.com/
+
+
+
+# # Nodejs and Reactjs 
+
+This project uses reactjs as a frontend.
+Make sure they are installed correctly.
+
+
+## Description
+
+This project aims to provide an interface environment for stock, forex 
+and cryptocurrency quotes. In addition to this general stock information,
+such as: Company news, Economic Calendar, IPO Calendar and others.
+
+Using the APIs to list various assets on the main stock exchanges in the world.
+In addition to a large amount of graphics and additional information, with high
+usability for the customer interface.
+
+
+## Roadmap
+
+We created a map in the Trello application to be able to follow and report the development processes.
+
+Submit your suggestion for implementation on Github Issues, we will discuss the need and add it to the roadmap if possible.
+Access is public!
+
+https://trello.com/b/99M365oQ/kanban-template-cotations-finance-exchange
+
+## UI Design,Prototype-Figma
+
+To design our user interface, screen prototypes and all kinds of design features, we will use the Figma tool.
+The prototypes are public and are on the link:
+
+https://www.figma.com/file/RcrOJDkiqORSbEkkyQ1AkV/Cotations-Finance-React?node-id=0%3A1
+
+
+## Alpha Vantage API
+
+Alpha Vantage Inc. is a leading provider of APIs for realtime and historical data on stocks,
+forex (FX), and digital/crypto currencies.
+
+https://www.alphavantage.co
+
+
+## Finnhub API
+
+Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto.
+Stock Fundamentals,Company News,Economic Calendar,IPO Calendar and others.
+
+https://finnhub.io/
+
+
+## Online Project Example
+The project is under development but there is already an online example hosted.
+
+https://cotation-info-finance-react.firebaseapp.com/
+
+
+
+# Iniciando a Aplicação
+
+## Instale o Projeto
+
+npm install 
+
+
+## Start the Development Project
+
+npm start
+
+
+### Contribute to the Project
+
+Open a Pull Request or Issues to contribute to the evolution of the project or to relate a problem.
+
+## Install the Project
+
+npm install 
+
+
+## Start the Development Project
+
+npm start
+
+
+### Contribute to the Project
+
+Open a Pull Request or Issues to contribute to the evolution of the project or to relate a problem.
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
