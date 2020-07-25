@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+//Components
+// import { StickyFooter } from "./components/footer/footer.js";
+// import { ButtonAppBar } from "./components/menu/menu-top-bar.js"
+//import { SimpleMenu } from "./components/menu/menu.js";
+//import { PrimarySearchAppBar } from "./components/menu/menu-bar.js";
+//import { PersistentDrawerLeft } from "./components/menu/menu-page.js";
+//import { Footer } from "./components/footer/footer-bar.js";
+//import { ThemeSwitcher } from "./components/navbar/navbar";
+
+
+//Pages
+//import { AlignItemsList } from "./pages/login/login.js";
+
+
+const App = () => (
+  <div>
+    {/* <SimpleMenu /> */}
+    {/* <PrimarySearchAppBar /> */} 
+    {/* <PersistentDrawerLeft /> */}  
+
+    {/* present menu */}
+    {/* <ButtonAppBar />  */} 
+
+<h1>Aqui landing page ghd sites agencia web</h1>
+
+    {/*
+    <Link to="/hello">
+    <button>Hello</button>
+    </Link>
+    */}
+
+    {/* <AlignItemsList /> */}
+
+    {/* <StickyFooter /> */}
+
+    {/* <Footer /> */}
+
+    {/* <Routes /> */}
+
+    
+  </div>
+);
 
 export default App;
