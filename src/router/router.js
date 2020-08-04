@@ -15,7 +15,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 //components and pages
 import App from "../App";
-import Contato from "..pages/contato"
+import Contato from "../pages/contato"
 import  ErrorPage   from "../pages/error";
 
 //import  List  from "../pages/test";
