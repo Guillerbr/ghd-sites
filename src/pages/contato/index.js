@@ -1,27 +1,24 @@
 import React from 'react';
 import './styles.css';
 
+import { Title, Footer, Contact, Information } from "./styles";
+
+
 //routes link
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 export function Contato() {
-    return (
-      <main className="App">
-        <h1>Contato</h1>
-        
-  
-        <Link
-         // component={Button}
-          to="/"
-          color="inherit"
-          style={{ textTransform: "none", color: "red" }}
-        >
-          Back
-        </Link>
-      </main>
-    );
-  }
-  
-  export default Contato;
+  return (
+    <main className="App">
+      <h1>Contato</h1>
+
+      <Footer>
+        <p>About Us</p>
+      </Footer>
+    </main>
+  );
+}
+
+export default Contato;
 
 
