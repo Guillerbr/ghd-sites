@@ -3,7 +3,7 @@ import React from "react";
 
 
 //Components
-// import { StickyFooter } from "./components/footer/footer.js";
+import { Rodape } from "./components/footer";
 // import { ButtonAppBar } from "./components/menu/menu-top-bar.js"
 //import { SimpleMenu } from "./components/menu/menu.js";
 //import { PrimarySearchAppBar } from "./components/menu/menu-bar.js";
@@ -40,7 +40,8 @@ const App = () => (
     {/* <Footer /> */}
 
     {/* <Routes /> */}
-
+ 
+    <Rodape />
     
   </div>
 );
