@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-//components and pages
+//components 
 // import App from "../App";
 // import { Search } from "../components/search";
 
@@ -13,7 +13,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import  SearchStock  from "../pages/FundamentusApi/search";
 // import  SearchStockFilter  from "../pages/FundamentusApi/searchstock";
 
-//components and pages
+//components 
 import App from "../App";
 import Contato from "../pages/contato"
 import  ErrorPage   from "../pages/error";

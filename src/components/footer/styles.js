@@ -21,16 +21,18 @@ export const TitleSmall = styled.h2`
 
 export const Footer = styled.h2`
   background-color: #0d1b2a;
-  color: #e55812;
-  height: 291px;
+  color: #B1DB93;
+  height: 5 91px;
   margin-top: 100px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   p {
-    font-size: 20px;
+    font-size: 30px;
     color: #e55812;
-    height: 20px;
+    height: 400px;
     margin-right: 1200px;
+    margin-left: 200px;
+    margin-top: 300px;
   }
   strong {
     color: #FBF0F0;

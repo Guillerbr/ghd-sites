@@ -21,7 +21,7 @@ export const TitleSmall = styled.h2`
 
 export const Footer = styled.h2`
   background-color: #0d1b2a;
-  color: #e55812;
+  color: #B1DB93;
   height: 291px;
   margin-top: 100px;
   text-align: center;

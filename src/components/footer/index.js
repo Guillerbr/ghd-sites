@@ -10,10 +10,12 @@ import { Title, Footer, Contact, Information } from "./styles";
 export function Rodape() {
   return (
     <main className="App">
-      <h1>Contato</h1>
+      
 
       <Footer>
-        <p>About Us</p>
+        <p>Contato</p>
+
+        
       </Footer>
     </main>
   );
