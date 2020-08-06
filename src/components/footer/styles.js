@@ -20,36 +20,35 @@ export const TitleSmall = styled.h2`
 `;
 
 export const Footer = styled.h2`
-  background-color: #031E22;
-  color: #E55812;
-  height: 5 91px;
-  margin-top: 100px;
-  
-  font-family: 'Roboto', sans-serif;
+  background-color: #031e22;
+  color: #e55812;
+  font-size: 25px;
+
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
-  margin-left:200px;
+  margin-left: 100px;
   p {
-    font-size: 16px;
-    color: #FBF0F0;
+    font-size: 14px;
+    color: #fbf0f0;
     height: 600px;
-    margin-right: 300px;
-    margin-left: 400px;
+    margin-right: 700px;
+    margin-left: 50px;
     margin-top: 100px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   strong {
-    color: #FBF0F0;
+    color: #fbf0f0;
     font-size: 12px;
     margin-right: 1200px;
-   /* font-family: 'Roboto'; font-size: 11px; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto'; font-size: 11px; */
+    font-family: "Roboto", sans-serif;
   }
   p.center {
     margin-right: 850px;
     margin-top: -63px;
     color: #e55812;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   /*
   strong.center-str {
@@ -60,7 +59,6 @@ export const Footer = styled.h2`
 `;
 
 export const Contact = styled.p`
-  
   margin-top: -83px;
   margin-left: 250px;
   text-align: center;
@@ -68,13 +66,11 @@ export const Contact = styled.p`
 `;
 
 export const Information = styled.p`
-  
   margin-top: -40px;
   margin-left: 450px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 `;
-
 
 /*
 EXEMPLE TAGS
