@@ -1,7 +1,7 @@
 import React from 'react';
 //import './styles.css';
 
-import { Title, Footer, Contact, Information } from "./styles";
+import { Title, Footer, Footer2, Contact, Information } from "./styles";
 
 
 //routes link
@@ -13,11 +13,17 @@ export function Rodape() {
       
 
       <Footer>
-        <p>Contato</p>
-
+        <h2>Contato</h2>
+        <p>Lorem Ipsum is simply dummy 
+          text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley o </p>
         
+
       </Footer>
+      
+
+      
     </main>
+    
   );
 }
 

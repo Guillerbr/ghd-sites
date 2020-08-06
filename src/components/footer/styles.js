@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const Title = styled.h1`
+export const Footer2 = styled.h1`
   color: #f00;
   text-align: center;
   margin-top: 500px;
-  background-color: #282c34;
+  background-color: blue;
   color: aliceblue;
   font-size: 30px;
   span {
@@ -20,19 +20,22 @@ export const TitleSmall = styled.h2`
 `;
 
 export const Footer = styled.h2`
-  background-color: #0d1b2a;
-  color: #B1DB93;
+  background-color: #031E22;
+  color: #E55812;
   height: 5 91px;
   margin-top: 100px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-left:200px;
   p {
-    font-size: 30px;
-    color: #e55812;
-    height: 400px;
-    margin-right: 1200px;
-    margin-left: 200px;
-    margin-top: 300px;
+    font-size: 16px;
+    color: #FBF0F0;
+    height: 600px;
+    margin-right: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
   }
   strong {
     color: #FBF0F0;
