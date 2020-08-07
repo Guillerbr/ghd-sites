@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 //Components
 import { Rodape } from "./components/footer";
 // import { ButtonAppBar } from "./components/menu/menu-top-bar.js"
@@ -11,21 +9,19 @@ import { Rodape } from "./components/footer";
 //import { Footer } from "./components/footer/footer-bar.js";
 //import { ThemeSwitcher } from "./components/navbar/navbar";
 
-
 //Pages
 //import { AlignItemsList } from "./pages/login/login.js";
-
 
 const App = () => (
   <div>
     {/* <SimpleMenu /> */}
-    {/* <PrimarySearchAppBar /> */} 
-    {/* <PersistentDrawerLeft /> */}  
+    {/* <PrimarySearchAppBar /> */}
+    {/* <PersistentDrawerLeft /> */}
 
     {/* present menu */}
-    {/* <ButtonAppBar />  */} 
+    {/* <ButtonAppBar />  */}
 
-<h1>Aqui landing page ghd sites agencia web</h1>
+    <h1>Aqui landing page ghd sites agencia web</h1>
 
     {/*
     <Link to="/hello">
@@ -40,9 +36,8 @@ const App = () => (
     {/* <Footer /> */}
 
     {/* <Routes /> */}
- 
+
     <Rodape />
-    
   </div>
 );
 
