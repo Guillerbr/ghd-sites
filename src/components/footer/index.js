@@ -3,9 +3,10 @@ import "./styles.css";
 
 //ICONS LIBS
 import { Lock } from '@styled-icons/material'
+import { Support } from '@styled-icons/boxicons-regular/Support'
 
 //STYLES COMPONENTS CSS 
-import { Title, Footer, Footer2, Contact, Information ,LockStyle } from "./styles";
+import { Title, Footer, Footer2, Contact, Information ,LockStyle,SupportStyle } from "./styles";
 
 //routes link
 //import { Link } from "react-router-dom";
@@ -25,7 +26,10 @@ export function Rodape() {
         
       </Footer>
       <LockStyle>
-      <Lock size="48" title="Unlock account" />
+      <Lock size="48" title="Security" />
+      <SupportStyle>
+      <Support size="48" title="Support"  />
+      </SupportStyle>
       </LockStyle>
     </main>
   );

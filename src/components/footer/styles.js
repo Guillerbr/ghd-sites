@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
-export const LockStyle = styled.h1`
- 
+export const LockStyle = styled.p`
   text-align: center;
-  margin-top: 500px;
-  
-  
-  font-size: 30px;
-  span {
-    font-size: 20px;
-  }
+  margin-top: -100px;
+  margin-left: 500px;
+`;
+
+export const SupportStyle = styled.p`
+  text-align: center;
+  margin-top: -50px;
+  margin-left: 200px;
 `;
 
 export const Footer2 = styled.h1`
