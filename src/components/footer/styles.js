@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const LockStyle = styled.h1`
+ 
+  text-align: center;
+  margin-top: 500px;
+  
+  
+  font-size: 30px;
+  span {
+    font-size: 20px;
+  }
+`;
+
 export const Footer2 = styled.h1`
   color: #f00;
   text-align: center;

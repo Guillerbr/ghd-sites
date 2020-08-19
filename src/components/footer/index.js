@@ -1,7 +1,11 @@
 import React from "react";
 import "./styles.css";
 
-import { Title, Footer, Footer2, Contact, Information } from "./styles";
+//ICONS LIBS
+import { Lock } from '@styled-icons/material'
+
+//STYLES COMPONENTS CSS 
+import { Title, Footer, Footer2, Contact, Information ,LockStyle } from "./styles";
 
 //routes link
 //import { Link } from "react-router-dom";
@@ -9,6 +13,7 @@ import { Title, Footer, Footer2, Contact, Information } from "./styles";
 export function Rodape() {
   return (
     <main className="App">
+      
       <Footer>
         <h2>Contato</h2>
         <p>
@@ -17,7 +22,11 @@ export function Rodape() {
           since the 1500s, when an unknown printer took a galley o galley o
           galley o galley o galley
         </p>
+        
       </Footer>
+      <LockStyle>
+      <Lock size="48" title="Unlock account" />
+      </LockStyle>
     </main>
   );
 }
