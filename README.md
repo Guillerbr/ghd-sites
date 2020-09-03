@@ -32,7 +32,7 @@ https://trello.com/b/99M365oQ/kanban-template-cotations-finance-exchange
 To design our user interface, screen prototypes and all kinds of design features, we will use the Figma tool.
 The prototypes are public and are on the link:
 
-https://www.figma.com/file/RcrOJDkiqORSbEkkyQ1AkV/Cotations-Finance-React?node-id=0%3A1
+https://www.figma.com/file/MwVt48OfZPdDCBmtHHGC8b/ghd-sites
 
 
 
