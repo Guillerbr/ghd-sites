@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const ContactTil = styled.h2`
+text-align: center;
+margin-top: -100px;
+margin-left: 500px;
+`;
+
 export const LockStyle = styled.p`
   text-align: center;
   margin-top: -100px;
