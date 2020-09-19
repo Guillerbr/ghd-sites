@@ -1,5 +1,9 @@
 import React from "react";
 
+//GLOBAL RESPONSIVE FUNCTION
+import Global from "./styles/global";
+
+
 //Components
 import { Rodape } from "./components/footer";
 // import { ButtonAppBar } from "./components/menu/menu-top-bar.js"
@@ -23,6 +27,9 @@ const App = () => (
 
     <h1>Aqui landing page ghd sites agencia web</h1>
 
+
+    <Global />
+
     {/*
     <Link to="/hello">
     <button>Hello</button>
@@ -42,3 +49,13 @@ const App = () => (
 );
 
 export default App;
+
+
+/*
+
+DOCs:
+
+https://dev.to/carloscne/criando-paginas-responsivas-e-adaptativas-com-react-e-styled-components-1gje
+
+
+*/

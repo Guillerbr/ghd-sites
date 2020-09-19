@@ -1,15 +1,20 @@
 import styled from "styled-components";
 
-export const ContactTil = styled.h2`
+export const ContactTil = styled.h3`
 text-align: center;
-margin-top: -100px;
-margin-left: 500px;
+margin-top: -50px;
+margin-left: -600px;
+width: 100%;
+font-family: "Times New Roman", Times, serif; 
+
 `;
 
 export const LockStyle = styled.p`
   text-align: center;
   margin-top: -100px;
   margin-left: 500px;
+  size:100px;
+  
 `;
 
 export const SupportStyle = styled.p`

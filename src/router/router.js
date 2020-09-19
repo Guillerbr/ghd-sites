@@ -13,10 +13,16 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import  SearchStock  from "../pages/FundamentusApi/search";
 // import  SearchStockFilter  from "../pages/FundamentusApi/searchstock";
 
-//components 
+//COMPONENTS 
 import App from "../App";
+
+//PAGES
 import Contato from "../pages/contato"
 import  ErrorPage   from "../pages/error";
+
+
+import Home from "../pages/home"
+//import Global from "../../styles/global";
 
 //import  List  from "../pages/test";
 //import { ButtonAppBar } from "../components/menu/menu-top-bar.js";
@@ -29,6 +35,8 @@ import  ErrorPage   from "../pages/error";
 const Routes = () => (
   <BrowserRouter>
     <Switch>
+
+
     {/*
       <Route exact path="/" component={App} /> 
       <Route path="/search" component={Search} />
@@ -43,13 +51,16 @@ const Routes = () => (
       <Route path="/teste" component={List} /> 
       */}
 
+
       <Route exact path="/" component={App} />
       <Route exact path="/contato" component={Contato} />
       <Route component={ErrorPage} />  
       
+
+      <Route exact path="/home" component={Home} /> 
       
-       
-      
+
+
     </Switch>
   </BrowserRouter>
 );

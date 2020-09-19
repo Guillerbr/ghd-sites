@@ -15,6 +15,7 @@ import {
   LockStyle,
   SupportStyle,
   ContactTil,
+ 
 } from "./styles";
 
 //routes link
@@ -25,6 +26,7 @@ export function Rodape() {
     <main className="App">
       <Footer>
       <ContactTil><h2>Contato</h2></ContactTil>
+     
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
