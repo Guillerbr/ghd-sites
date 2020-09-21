@@ -52,12 +52,12 @@ const Routes = () => (
       */}
 
 
-      <Route exact path="/" component={App} />
+      <Route exact path="/" component={App} /> 
       <Route exact path="/contato" component={Contato} />
       <Route component={ErrorPage} />  
       
 
-      <Route exact path="/home" component={Home} /> 
+     <Route exact path="/homee" component={Home} />
       
 
 

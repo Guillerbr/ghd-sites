@@ -4,8 +4,9 @@ import React from "react";
 import Global from "./styles/global";
 
 
-//Components
-import { Rodape } from "./components/footer";
+//COMPONENTS
+
+//import { Rodape } from "./components/footer";
 // import { ButtonAppBar } from "./components/menu/menu-top-bar.js"
 //import { SimpleMenu } from "./components/menu/menu.js";
 //import { PrimarySearchAppBar } from "./components/menu/menu-bar.js";
@@ -13,11 +14,17 @@ import { Rodape } from "./components/footer";
 //import { Footer } from "./components/footer/footer-bar.js";
 //import { ThemeSwitcher } from "./components/navbar/navbar";
 
-//Pages
+import { Rodape } from "./components/footer";
+
+
+//PAGES
+
 //import { AlignItemsList } from "./pages/login/login.js";
 
 const App = () => (
+  
   <div>
+    <Global />
     {/* <SimpleMenu /> */}
     {/* <PrimarySearchAppBar /> */}
     {/* <PersistentDrawerLeft /> */}
@@ -25,10 +32,10 @@ const App = () => (
     {/* present menu */}
     {/* <ButtonAppBar />  */}
 
-    <h1>Aqui landing page ghd sites agencia web</h1>
+    {/* <h1>Aqui landing page ghd sites agencia web</h1> */}
 
 
-    <Global />
+    
 
     {/*
     <Link to="/hello">
@@ -44,7 +51,9 @@ const App = () => (
 
     {/* <Routes /> */}
 
-    <Rodape />
+    <Rodape /> 
+
+    
   </div>
 );
 
