@@ -57,7 +57,7 @@ const Routes = () => (
       <Route component={ErrorPage} />  
       
 
-     <Route exact path="/homee" component={Home} />
+     <Route exact path="/home" component={Home} />
       
 
 

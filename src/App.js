@@ -25,6 +25,8 @@ const App = () => (
   
   <div>
     <Global />
+    <p>About Us</p>
+    
     {/* <SimpleMenu /> */}
     {/* <PrimarySearchAppBar /> */}
     {/* <PersistentDrawerLeft /> */}
@@ -51,7 +53,7 @@ const App = () => (
 
     {/* <Routes /> */}
 
-    <Rodape /> 
+    {/* <Rodape />  */}
 
     
   </div>
