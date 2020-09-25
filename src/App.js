@@ -1,7 +1,7 @@
 import React from "react";
 
 //GLOBAL RESPONSIVE FUNCTION
-import Global from "./styles/global";
+//import Global from "./styles/global";
 
 
 //COMPONENTS
@@ -24,7 +24,7 @@ import { Rodape } from "./components/footer";
 const App = () => (
   
   <div>
-    <Global />
+    {/* <Global /> */}
     <p>About Us</p>
     
     {/* <SimpleMenu /> */}
