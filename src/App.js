@@ -1,4 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
+import styled from 'styled-components';
+
 
 //GLOBAL RESPONSIVE FUNCTION
 //import Global from "./styles/global";
@@ -8,7 +10,6 @@ import React from "react";
 
 //import { Rodape } from "./components/footer";
 // import { ButtonAppBar } from "./components/menu/menu-top-bar.js"
-//import { SimpleMenu } from "./components/menu/menu.js";
 //import { PrimarySearchAppBar } from "./components/menu/menu-bar.js";
 //import { PersistentDrawerLeft } from "./components/menu/menu-page.js";
 //import { Footer } from "./components/footer/footer-bar.js";
@@ -27,7 +28,7 @@ const App = () => (
     {/* <Global /> */}
     <p>About Us</p>
     
-    {/* <SimpleMenu /> */}
+    
     {/* <PrimarySearchAppBar /> */}
     {/* <PersistentDrawerLeft /> */}
 
@@ -53,7 +54,7 @@ const App = () => (
 
     {/* <Routes /> */}
 
-    {/* <Rodape />  */}
+    <Rodape /> 
 
     
   </div>
