@@ -30,8 +30,6 @@ import Home from "../pages/home"
 
 
 
-
-
 const Routes = () => (
   <BrowserRouter>
     <Switch>
