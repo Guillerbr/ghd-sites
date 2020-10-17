@@ -34,8 +34,6 @@ const Routes = () => (
   <BrowserRouter>
     <Switch>
 
-
-
     {/*
       <Route exact path="/" component={App} /> 
       <Route path="/search" component={Search} />
