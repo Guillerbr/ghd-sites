@@ -27,9 +27,6 @@ import Home from "../pages/home"
 //import  List  from "../pages/test";
 //import { ButtonAppBar } from "../components/menu/menu-top-bar.js";
 
-
-
-
 const Routes = () => (
   <BrowserRouter>
     <Switch>
