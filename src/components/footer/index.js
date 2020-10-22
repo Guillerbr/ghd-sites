@@ -7,11 +7,11 @@ import { Support } from "@styled-icons/boxicons-regular/Support";
 
 //STYLES COMPONENTS CSS
 import {
-  Title,
+  //Title,
   Footer,
-  Footer2,
-  Contact,
-  Information,
+  //Footer2,
+  //Contact,
+  //Information,
   LockStyle,
   SupportStyle,
   ContactTil,
