@@ -1,99 +1,60 @@
 import styled from "styled-components";
 
-export const ContactTil = styled.h3`
-text-align: center;
-margin-top: -50px;
-margin-left: -600px;
-width: 100%;
-font-family: "Times New Roman", Times, serif; 
 
-`;
+export const Container = styled.div`
 
-export const LockStyle = styled.p`
-  text-align: center;
-  margin-top: -100px;
-  margin-left: 500px;
-  size:100px;
-  
-`;
-
-export const SupportStyle = styled.p`
-  text-align: center;
-  margin-top: -50px;
-  margin-left: 200px;
-`;
-
-export const Footer2 = styled.h1`
-  color: #f00;
-  text-align: center;
-  margin-top: 500px;
-  background-color: blue;
-  color: aliceblue;
-  font-size: 30px;
-  span {
-    font-size: 20px;
+position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding: 0 24px;
+  margin: 40px auto 0;
+  overflow: hidden;
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 240px;
+    background: #73678a;
+    border-width: initial;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 54px;
+    transition: background 0.2s;
+    font-size: 16px;
+    color: white;
+    &:hover {
+      background: #795a8b;
+    }
   }
-`;
 
-export const TitleSmall = styled.h2`
-  background-color: red;
-  margin-top: 100px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-`;
-
-export const Footer = styled.h2`
-  background-color: #031e22;
-  color: #e55812;
-  font-size: 25px;
-
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  margin-left: 100px;
-  p {
-    font-size: 14px;
-    color: #fbf0f0;
-    height: 600px;
-    margin-right: 700px;
-    margin-left: 50px;
-    margin-top: 100px;
-    font-family: "Roboto", sans-serif;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    position: relative;
   }
-  strong {
-    color: #fbf0f0;
-    font-size: 12px;
-    margin-right: 1200px;
-    /* font-family: 'Roboto'; font-size: 11px; */
-    font-family: "Roboto", sans-serif;
+
+  @media (max-width: 800px) {
+    button {
+      margin-left: 0px;
+      margin-top: 10px;
+      background: #100f12;
+      border-radius: 5px;
+    }
   }
-  p.center {
-    margin-right: 850px;
-    margin-top: -63px;
-    color: #e55812;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-  }
-  /*
-  strong.center-str {
-    margin-top: -63px;
-    font-size: 15px;
-  }
- */
+
 `;
 
-export const Contact = styled.p`
-  margin-top: -83px;
-  margin-left: 250px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-`;
 
-export const Information = styled.p`
-  margin-top: -40px;
-  margin-left: 450px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-`;
+
+
+
+
+
 
 /*
 EXEMPLE TAGS

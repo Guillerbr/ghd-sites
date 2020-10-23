@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import styled from 'styled-components';
 
 
-//GLOBAL RESPONSIVE FUNCTION
-//import Global from "./styles/global";
 
+
+//global styleds
+import GlobalStyle from "./styles/globals.js";
 
 //COMPONENTS
 
@@ -14,7 +15,7 @@ import styled from 'styled-components';
 //import { PersistentDrawerLeft } from "./components/menu/menu-page.js";
 //import { Footer } from "./components/footer/footer-bar.js";
 //import { ThemeSwitcher } from "./components/navbar/navbar";
-import { Rodape } from "./components/footer";
+import  Rodape  from "./components/footer";
 
 
 
@@ -24,7 +25,7 @@ import { Rodape } from "./components/footer";
 //import { AlignItemsList } from "./pages/login/login.js";
 
 const App = () => (
-  
+ 
   <div>
     {/* <Global /> */}
     <p>About Us</p>
@@ -56,9 +57,10 @@ const App = () => (
     {/* <Routes /> */}
 
     <Rodape /> 
-
     
+    <GlobalStyle />
   </div>
+   
 );
 
 export default App;
