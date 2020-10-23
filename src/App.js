@@ -14,8 +14,9 @@ import styled from 'styled-components';
 //import { PersistentDrawerLeft } from "./components/menu/menu-page.js";
 //import { Footer } from "./components/footer/footer-bar.js";
 //import { ThemeSwitcher } from "./components/navbar/navbar";
-
 import { Rodape } from "./components/footer";
+
+
 
 
 //PAGES
