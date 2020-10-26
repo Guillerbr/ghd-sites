@@ -39,14 +39,9 @@ export const Container = styled.div`
   @media (max-width: 800px) {
     button {
       margin-left: 0px;
-      margin-top: 10px;
+      margin-top: 100px;
       background: #100f12;
       border-radius: 5px;
     }
   }
 `;
-
-/*
-EXEMPLE TAGS
- position: absolute;
-*/

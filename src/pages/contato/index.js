@@ -1,8 +1,6 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
 
 import { Title, Footer, Contact, Information } from "./styles";
-
 
 //routes link
 //import { Link } from "react-router-dom";
@@ -20,5 +18,3 @@ export function Contato() {
 }
 
 export default Contato;
-
-

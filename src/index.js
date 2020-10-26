@@ -1,25 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 
 //import App from './App';
-
 
 //routes
 import Routes from "./router/router.js";
 
 ReactDOM.render(
   <React.StrictMode>
-
     {/* <App /> */}
     <Routes />
-
-
-
-
   </React.StrictMode>,
-  document.getElementById('root')
-  
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

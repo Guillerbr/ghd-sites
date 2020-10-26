@@ -45,8 +45,3 @@ export const Container = styled.div`
     }
   }
 `;
-
-/*
-EXEMPLE TAGS
- position: absolute;
-*/
