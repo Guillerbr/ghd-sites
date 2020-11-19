@@ -18,7 +18,7 @@ export function ErrorPage() {
     <main className="App">
 
       <img
-        src=""
+        src="https://www.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_8030430.htm#page=1&query=404%20not%20found&position=11"
         alt="OOPS"
       />
 
