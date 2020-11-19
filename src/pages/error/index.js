@@ -16,10 +16,11 @@ import Button from "@material-ui/core/Button";
 export function ErrorPage() {
   return (
     <main className="App">
-      {/* <img
-        src="https://image.freepik.com/fotos-gratis/imagem-cenico-da-arvore-de-abetos-vermelhos-dia-gelado-cena-invernal-calma_146671-15226.jpg"
-        alt="Logo"
-      /> */}
+
+      <img
+        src=""
+        alt="OOPS"
+      />
 
       <h1>Content not found!</h1>
       <h2>OOPS</h2>
