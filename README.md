@@ -45,18 +45,22 @@ https://www.figma.com/file/MwVt48OfZPdDCBmtHHGC8b/ghd-sites
 ## Instale o Projeto
 
 ```npm install
+
 ``` 
 ou
 
 ```yarn install
+
 ```
 
 ## Start the Development Project
 
 ```npm start
+
 ```
 
 ```yarn start
+
 ```
 
 ### Contribute to the Project
