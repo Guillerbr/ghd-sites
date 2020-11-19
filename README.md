@@ -44,22 +44,22 @@ https://www.figma.com/file/MwVt48OfZPdDCBmtHHGC8b/ghd-sites
 
 ## Instale o Projeto
 
-```
+``` bash
 npm install
 ``` 
 ou
 
-```
+```bash
 yarn install
 ```
 
 ## Start the Development Project
 
-```
+```bash
 npm start
 ```
 
-```
+```bash
 yarn start
 ```
 
