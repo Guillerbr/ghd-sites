@@ -8,8 +8,9 @@ export default function Blog() {
       <img
         src="https://image.freepik.com/fotos-gratis/imagem-cenico-da-arvore-de-abetos-vermelhos-dia-gelado-cena-invernal-calma_146671-15226.jpg"
         alt="Logo"
+        width="600 px;"
       />
-      <button type="button">Acessar</button>
+      <button type="button">Blogs</button>
     </Container>
   );
 }

@@ -11,14 +11,14 @@ import "./styles.css";
 import Button from "@material-ui/core/Button";
 
 //image assets
-//import Logo from "./logo.png"
+//import Logo from "../../images/404.jpg"
 
 export function ErrorPage() {
   return (
     <main className="App">
 
       <img
-        src="https://www.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_8030430.htm#page=1&query=404%20not%20found&position=11"
+        src="/home/gui/Área de Trabalho/SOFTWARE/ghd-sites/src/images/404.jpg"
         alt="OOPS"
       />
 

@@ -6,10 +6,11 @@ export default function Maps() {
   return (
     <Container>
       <img
-        src="https://image.freepik.com/fotos-gratis/imagem-cenico-da-arvore-de-abetos-vermelhos-dia-gelado-cena-invernal-calma_146671-15226.jpg"
+        src="https://image.freepik.com/free-vector/realistic-black-friday-sale-banner-with-gifts-balloons_1361-2931.jpg"
         alt="Logo"
+        width="600 px;"
       />
-      <button type="button">Acessar</button>
+      <button type="button">Mapas</button>
     </Container>
   );
 }
