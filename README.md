@@ -10,10 +10,9 @@ https://ghdsites.firebaseapp.com/
 https://ghdsites.heroku.com/
 
 
-
 ## Reactjs 
 
-This project uses reactjs as a frontend.
+This project uses Reactjs as a frontend.
 Make sure they are installed correctly.
 
 
