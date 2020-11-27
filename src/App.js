@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import styled from "styled-components";
+//import styled from "styled-components";
 
-//global styleds
+//global responsive styles 
 import GlobalStyle from "./styles/globals.js";
 
 //COMPONENTS
