@@ -4,19 +4,50 @@ import React, { Component } from "react";
 //Bootstrap components
 
 //global responsive styles
-import GlobalStyle from "./styles/globals.js";
+//import GlobalStyle from "./styles/globals.js";
 
 //COMPONENTS
-import Rodape from "./components/footer";
+//import Rodape from "./components/footer";
 
-const App = () => (
-  <div>
-    <div className="container-fluid">Menu</div>
+class App extends Component {
+  render() {
+    return (
+      <div className="container-fluid">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+          <a className="navbar-brand" href="#">
+            {/* <i className="fas fa-stroopwafel"></i> */}
+            <i className="fas fa-sitemap"></i> &nbsp; GHD Sites
+          </a>
 
-    <Rodape />
+          <div className="collapse" id="navbarMainToggler">
+            <div className="navbar-nav">
+              <a className="nav-item nav-link" href="#">
+                Home
+              </a>
+              <a className="nav-item nav-link" href="#">
+                Home
+              </a>
+              <a className="nav-item nav-link" href="#">
+                Home
+              </a>
+            </div>
+          </div>
 
-    <GlobalStyle />
-  </div>
-);
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarMainToggler"
+            aria-controls="navbarMainToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    );
+  }
+}
 
 export default App;
