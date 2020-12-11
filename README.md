@@ -73,8 +73,3 @@ Open a Pull Request or Issues to contribute to the evolution of the project or t
 
 
 
-
-------------------------------------------------------------------------
-
-
-https://dev.to/carloscne/criando-paginas-responsivas-e-adaptativas-com-react-e-styled-components-1gje
