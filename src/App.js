@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import Firebase from "./firebase";
 //import styled from "styled-components";
-
-import Routes from "./router/router.js";
+//import Routes from "./router/router.js";
 
 //Bootstrap components
 
