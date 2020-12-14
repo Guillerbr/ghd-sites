@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Firebase from "./firebase";
+//import Firebase from "./firebase";
+//import { BrowserRouter, Route } from "react-router-dom";
 //import styled from "styled-components";
 //import Routes from "./router/router.js";
 
@@ -11,9 +12,22 @@ import Firebase from "./firebase";
 //COMPONENTS
 //import Rodape from "./components/footer";
 
+// //PAGES
+// import Contato from "./pages/contato";
+// import ErrorPage from "./pages/error";
+// import Maps from "./pages/maps";
+// import Blog from "./pages/blog";
+
 class App extends Component {
   render() {
     return (
+      // <BrowserRouter>
+      //   <Route exact path="/" component={App} />
+      //   <Route exact path="/contato" component={Contato} />
+      //   <Route exact path="/mapa" component={Maps} />
+      //   <Route exact path="/blog" component={Blog} />
+      //   <Route component={ErrorPage} />
+
       <div className="container-fluid">
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
           <a className="navbar-brand" href="#">
@@ -36,7 +50,10 @@ class App extends Component {
             {/* <div className="collapse" id="navbarMainToggler"> */}
 
             <div className="navbar-nav ml-auto">
-              <a className="nav-item nav-link text-success" href="http://localhost:3001/contato">
+              <a
+                className="nav-item nav-link text-success"
+                href="http://localhost:3001/contato"
+              >
                 Contato
               </a>
               <a className="nav-item nav-link text-success" href="#">
@@ -61,13 +78,10 @@ class App extends Component {
                 src="https://placeimg.com/240/180/any"
                 alt=""
                 className="rounded float-left"
-               
-                
               />
             </li>
           </ul>
         </section>
-
 
         {/* EN NAV COMPOT */}
 
@@ -144,15 +158,11 @@ class App extends Component {
           <textarea class="form-control" aria-label="With textarea"></textarea>
         </div>
 
-
-
-
         {/* FOOTER COMPONENT */}
-        
 
-        <footer className="container col-12 pt-3 footer bg-dark text-success text-center">  
-        <h2>Contato</h2>
-        
+        <footer className="container col-12 pt-3 footer bg-dark text-success text-center">
+          <h2>Contato</h2>
+
           <container className="container col-6 col-md-2 d-flex justify-content-around">
             <i class="fab fa-google"></i>
             <i class="fab fa-facebook-square"></i>
@@ -161,14 +171,55 @@ class App extends Component {
             <i class="fab fa-github"></i>
           </container>
 
-
           <h2>Contato</h2>
         </footer>
 
         {/* end */}
       </div>
+      // </BrowserRouter>
     );
   }
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import { BrowserRouter, Route } from "react-router-dom";
+
+
+// //COMPONENTS
+// import Rodape from "./components/footer";
+
+// //PAGES
+// // import Contato from "./pages/contato";
+// // import ErrorPage from "./pages/error";
+// // import Maps from "./pages/maps";
+// // import Blog from "./pages/blog";
+
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       {/* <Route exact path="/" component={App} />
+//       <Route exact path="/contato" component={Contato} />
+//       <Route exact path="/mapa" component={Maps} />
+//       <Route exact path="/blog" component={Blog} /> */}
+//       <Route exact path="/footer" component={Rodape} />
+//       {/* <Route component={ErrorPage} /> */}
+//     </BrowserRouter>
+//   );
+// }
+
+// export default App;
