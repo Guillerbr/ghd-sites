@@ -31,7 +31,7 @@ class App extends Component {
       <div className="container-fluid">
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
           <a className="navbar-brand" href="#">
-            <i className="fas fa-sitemap"></i> &nbsp; GHD Sites
+            <i className="fas fa-sitemap"></i> &nbsp; GHD SOFT
           </a>
 
           <button
@@ -183,21 +183,8 @@ class App extends Component {
 
 export default App;
 
-
-
-
-
-
-
-
-
-
-
-
-
 // import React from "react";
 // import { BrowserRouter, Route } from "react-router-dom";
-
 
 // //COMPONENTS
 // import Rodape from "./components/footer";
@@ -207,7 +194,6 @@ export default App;
 // // import ErrorPage from "./pages/error";
 // // import Maps from "./pages/maps";
 // // import Blog from "./pages/blog";
-
 
 // function App() {
 //   return (
