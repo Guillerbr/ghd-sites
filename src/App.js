@@ -4,8 +4,6 @@ import React, { Component } from "react";
 //import styled from "styled-components";
 //import Routes from "./router/router.js";
 
-//Bootstrap components
-
 //global responsive styles
 //import GlobalStyle from "./styles/globals.js";
 
