@@ -1,7 +1,7 @@
 {
-  "name": "material-kit-react",
-  "version": "1.9.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "name": "ghd-systems",
+  "version": "0.0.1",
+  "description": "Frondend GHD Systems",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
