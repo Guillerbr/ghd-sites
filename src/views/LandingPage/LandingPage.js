@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="GHD Digital Agency"
+        brand="GHD Systems"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -47,15 +47,17 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>GHD SITES</h1>
+              <h1 className={classes.title}>GHD Systems</h1>
               <h2>Agência Digital</h2>
               <h3>
-                Produtos para o mundo digital.Uma empresa focada em realizar os
-                serviços de criaçãode sites.
+                Empresa focada em desenvolver
+                produtos digitais, desde sites e sistemas web,
+                até marketing e consultoria de software.Envie sua mensagem via WhatsApp{" "}
+                <i className="fab fa-whatsapp" />
               </h3>
               <br />
               <Button
-                color="primary"
+                color="success"
                 size="lg"
                 href="https://mywhats.net/983292"
                 target="_blank"

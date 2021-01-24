@@ -20,11 +20,11 @@ export default function Footer(props) {
   const { whiteFont } = props;
   const footerClasses = classNames({
     [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   const aClasses = classNames({
     [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   return (
     <footer className={footerClasses}>
@@ -33,25 +33,25 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
+                href="http://localhost:3001/front-page"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Front Page
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
+                href="http://localhost:3001/profile-page"
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Perfil
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
+                href="http://localhost:3001/blog"
                 className={classes.block}
                 target="_blank"
               >
@@ -64,23 +64,23 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Licenses
+                Contato
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , feito por{" "}
-          <Favorite className={classes.icon} /> por{" "}
+          <Favorite className={classes.icon} />
           <a
             //href="http://localhost:3001/"
             //link to="/login-page"
             className={aClasses}
             target="_blank"
           >
-            GHD Sites
+            GHD Systems
           </a>{" "}
-          for a better web.
+          Digital Agency.
         </div>
       </div>
     </footer>
@@ -88,5 +88,5 @@ export default function Footer(props) {
 }
 
 Footer.propTypes = {
-  whiteFont: PropTypes.bool
+  whiteFont: PropTypes.bool,
 };
