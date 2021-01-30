@@ -27,7 +27,7 @@ import People from "@material-ui/icons/People";
 export default function Blog() {
   return (
     <div>
-      <h1>BLOG ROUTER</h1>
+      <h1>BLOG</h1>
     </div>
   );
 }
