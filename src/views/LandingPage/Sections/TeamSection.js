@@ -31,7 +31,7 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>Time de Especialistas</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
@@ -40,16 +40,16 @@ export default function TeamSection() {
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Guilherme Henrique
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Gerente</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Gerente definr como os projetos de software serão conduzidos,
+                  controlar sua qualidade, informações técnicas, alocar líder e
+                  equipe em cada projeto, acompanhar a criação e
+                  desenvolvimentos, gerenciar os recursos.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -89,10 +89,10 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Atua junto ao arquiteto de sistemas. Ele recebe o wireframe e
+                  é o responsável por definir como a interface será. Em geral, é
+                  esse profissional que define a tipografia, a paleta de cores a
+                  ser usada, os ícones, os espaçamentos.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -121,14 +121,13 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Kendall Jenner
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Programador</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Desenvolvedor de Software. O Desenvolvedor de software (ou
+                  programador) é responsável pela programação, que é o processo
+                  de escrita, teste e manutenção de um programa de computador.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>

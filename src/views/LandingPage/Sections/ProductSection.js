@@ -21,13 +21,14 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Nossa Missão</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Desenvolver softwares inteligentes para facilitar a vida das
+            pessoas. Ser referência no desenvolvimento de software para o
+            varejo, proporcionando o crescimento e bem-estar dos clientes,
+            colaboradores e comunidade. Soluções de software de gestão para
+            empresas que necessitam automatizar ou melhorar seus controles
+            internos, tendo a tecnologia como aliados.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,8 +36,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Proposta"
+              description="A proposta é desenvolver soluções para diversos segmentos, visando sempre a satisfação do cliente."
               icon={Chat}
               iconColor="info"
               vertical
@@ -44,8 +45,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Confiança"
+              description="Equipe qualificada garantindo assim a confiança em nossos aplicativos, ferramentas e serviços."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -53,8 +54,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Tecnologia"
+              description="Especialista em software sob medida. Entregamos soluções com tecnologias de qualidade."
               icon={Fingerprint}
               iconColor="danger"
               vertical
