@@ -77,7 +77,8 @@ export default function Components(props) {
         <GridItem md={12} className={classes.textCenter}>
           <Link to={"/login-page"} className={classes.link}>
             <Button color="primary" size="lg" simple>
-              View Login Page
+              Página de Login
+              
             </Button>
           </Link>
         </GridItem>
