@@ -55,7 +55,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>GHD Systems.</h1>
                 <h3 className={classes.subtitle}>
-                  GHD Sites Design And Engineering Software.
+                  GHD Sites Design, Engineering Software.
                 </h3>
               </div>
             </GridItem>
