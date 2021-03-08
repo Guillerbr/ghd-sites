@@ -22,9 +22,9 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Entre em Contato</h2>
           <h4 className={classes.description}>
-            Uma nova experiência na criação de software . Que tal se juntar aos
-            vários empresários que decidiram alcançar o máximo potencial com
-            seus negócios? Entre em contato conosco.
+            Uma nova experiência na criação de software. Que tal se juntar aos
+            vários empresários que decidiram alcançar o máximo potencial dos
+            seus negócios? Entre em contato conosco. Conheça nossas soluções!
           </h4>
           <form>
             <GridContainer>
