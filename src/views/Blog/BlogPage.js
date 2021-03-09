@@ -85,7 +85,7 @@ export default function Blog(props) {
               <h2>Agência Digital</h2>
               <h3>
                 Empresa focada em desenvolver
-                produtos digitais, desde sites e sistemas web,
+                produtos digitais, desde sites, lojas virtuais, sistemas web, designer,
                 até marketing e consultoria de software.Envie sua mensagem via WhatsApp{" "}
                 <i className="fab fa-whatsapp" />
               </h3>
@@ -99,7 +99,19 @@ export default function Blog(props) {
               >
                 {/* <i className="fas fa-play" /> */}
                 <i className="fab fa-whatsapp" />
-                Whats App
+                WhatsApp
+              </Button>
+              <Button
+                color="info"
+                //severity="info"
+                size="lg"
+                href="https://www.facebook.com/ghdsites"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {/* <i className="fas fa-play" /> */}
+                <i className="fab fa-facebook" />
+                Facebook
               </Button>
             </GridItem>
           </GridContainer>

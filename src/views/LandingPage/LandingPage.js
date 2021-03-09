@@ -67,6 +67,17 @@ export default function LandingPage(props) {
                 <i className="fab fa-whatsapp" />
                 Whats App
               </Button>
+              <Button
+                color="info"
+                size="lg"
+                href="https://www.facebook.com/ghdsites"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {/* <i className="fas fa-play" /> */}
+                <i className="fab fa-facebook" />
+                Facebook
+              </Button>
             </GridItem>
           </GridContainer>
         </div>
