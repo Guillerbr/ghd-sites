@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="GHD SITES Kit React"
+        brand="GHD Systems"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -48,14 +48,14 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/gbbg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>GHD Systems.</h1>
+                <h1 className={classes.title}>GHD Systems</h1>
                 <h3 className={classes.subtitle}>
-                  GHD Sites Design, Engineering Software.
+                  Soluções em Software, Designer e Marketing. Ajudamos seu negócio crescer digitalmente.
                 </h3>
               </div>
             </GridItem>
@@ -64,7 +64,10 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
+
+        <SectionCarousel />
+
+        {/* <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
         <SectionPills />
@@ -73,13 +76,14 @@ export default function Components(props) {
         <SectionJavascript />
         <SectionCarousel />
         <SectionCompletedExamples />
-        <SectionLogin />
+        <SectionLogin /> */}
+
         <GridItem md={12} className={classes.textCenter}>
-          <Link to={"/login-page"} className={classes.link}>
+          {/* <Link to={"/login-page"} className={classes.link}>
             <Button color="primary" size="lg" simple>
               Página Login
             </Button>
-          </Link>
+          </Link> */}
         </GridItem>
         <SectionExamples />
         <SectionDownload />
