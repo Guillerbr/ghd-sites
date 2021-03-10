@@ -16,9 +16,10 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+// image team session
+import team1 from "assets/img/faces/gui.jpg";
+import team2 from "assets/img/faces/alan.jpg";
+import team3 from "assets/img/faces/talita.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -83,7 +84,7 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Allan Paixão
                 <br />
                 <small className={classes.smallTitle}>Designer</small>
               </h4>
@@ -119,9 +120,9 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Talita Sousa
                 <br />
-                <small className={classes.smallTitle}>Programador</small>
+                <small className={classes.smallTitle}>Programadora</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
