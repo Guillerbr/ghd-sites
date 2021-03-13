@@ -52,10 +52,10 @@ export default function LandingPage(props) {
               <h3>
                 Empresa focada em desenvolver
                 produtos digitais, desde sites e sistemas web,
-                até marketing e consultoria de software.Envie sua mensagem via WhatsApp{" "}
-                <i className="fab fa-whatsapp" />
+                até marketing e consultoria de software.Envie sua mensagem via WhatsApp ou Facebook.
+                {/* <i className="fab fa-whatsapp" /> */}
               </h3>
-              <br />
+   
               <Button
                 color="success"
                 size="lg"

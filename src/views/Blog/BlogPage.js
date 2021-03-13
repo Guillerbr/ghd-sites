@@ -1,11 +1,9 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import Icon from "@material-ui/core/Icon";
+
 // @material-ui/icons
-import Email from "@material-ui/icons/Email";
-import People from "@material-ui/icons/People";
+
 
 // core components
 // import Header from "components/Header/Header.js";
@@ -82,13 +80,14 @@ export default function Blog(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>GHD Systems</h1>
-              <h2>Agência Digital</h2>
+              <h2>Blog</h2>
               <h3>
-                Empresa focada em desenvolver
-                produtos digitais, desde sites, lojas virtuais, sistemas web, designer,
-                até marketing e consultoria de software.Envie sua mensagem via WhatsApp{" "}
-                <i className="fab fa-whatsapp" />
+               Contaremos algumas histórias e cases do nosso dia a dia. 
+               Aproximar você a nossa realidade e mostrar como podemos ajudar 
+               a resolver seus problemas... {" "}
+                {/* <i className="fab fa-whatsapp" /> */}
               </h3>
+              <h3>Contatos:</h3>
               <br />
               <Button
                 color="success"

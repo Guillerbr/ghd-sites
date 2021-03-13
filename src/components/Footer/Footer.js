@@ -33,20 +33,20 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://localhost:3001/front-page"
+                href="https://www.facebook.com/ghdsites"
                 className={classes.block}
                 target="_blank"
               >
-                Front Page
+                Facebook
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://localhost:3001/profile-page"
+                href="https://mywhats.net/983292"
                 className={classes.block}
                 target="_blank"
               >
-                Perfil
+                WhatsApp
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>

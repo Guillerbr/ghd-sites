@@ -11,7 +11,8 @@ import Blog from "views/Blog/BlogPage.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
-//import Map from "views/MapPage";
+import Map from "views/MapPage";
+import ContatoPage from "views/ContatoPage/ContatoPage.js";
 
 var hist = createBrowserHistory();
 
@@ -22,9 +23,10 @@ ReactDOM.render(
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/front-page" component={Components} />
-      {/* <Route path="/map" component={Map} /> */}
+      <Route path="/map" component={Map} />
       <Route path="/blog" component={Blog} />
       <Route path="/" component={LandingPage} />
+      <Route path="/contato" component={ContatoPage} />
     </Switch>
   </Router>,
   document.getElementById("root")
