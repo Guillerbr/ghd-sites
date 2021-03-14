@@ -18,30 +18,31 @@ export default function SectionDownload() {
       <div className={classes.container}>
         <GridContainer className={classes.textCenter} justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Do you love this UI Kit?</h2>
+            <h2>Como podemos ajudar sua empresa?</h2>
             <h4>
-              Cause if you do, it can be yours for FREE. Hit the buttons below
-              to navigate to our website where you can find the kit. We also
-              have the Bootstrap 4 version on plain HTML. Start a new project or
-              give an old Bootstrap project a new look!
+              Seu site terá funcionalidades exclusivas visando converter visitantes em clientes.
+              Você poderá ter Chat Online, PopUps Inteligentes, Integração com Email Marketing,
+              Redes Sociais, Google Analytics, Integração com plataformas de pagamento digital
+              e muitas outras ferramentas! Entre em contato conosco!
             </h4>
           </GridItem>
           <GridItem xs={12} sm={8} md={6}>
             <Button
-              color="primary"
+              color="blue"
               size="lg"
-              href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-download-section"
+              href="http://localhost:3000/contato"
+              // Link to="http://localhost:3000/front-page"
               target="_blank"
             >
-              Free React Download
+              Contato
             </Button>
             <Button
-              color="primary"
+              color="blue"
               size="lg"
-              href="https://www.creative-tim.com/product/material-kit?ref=mkr-download-section"
+              href="http://localhost:3000/blog"
               target="_blank"
             >
-              Free HTML Downoad
+              Blog
             </Button>
           </GridItem>
         </GridContainer>
@@ -49,56 +50,57 @@ export default function SectionDownload() {
         <br />
         <GridContainer className={classes.textCenter} justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Want more?</h2>
+            <h2>Conheça alguns de nossos trabalhos!</h2>
             <h4>
-              We{"'"}ve launched{" "}
+              {/* We{"'"}ve launched{" "} */}
               <a
-                href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkr-download-section"
+                href="https://www.portalviscondedemaua.com/"
                 target="_blank"
               >
-                Material Kit PRO React{" "}
+                Portal Visconde de Mauá{" "}
               </a>
-              .It has a huge number of components, sections and example pages.
-              Start Your Development With A Badass Material-UI nspired by
-              Material Design.
+              Eleita uma das regiões mais lindas do Brasil!
+              Conheça As Melhores Opções de Hospedagem em Visconde de Mauá
+              Escolha a sua e venha viver dias inesquecíveis.
             </h4>
           </GridItem>
           <GridItem xs={12} sm={8} md={6}>
             <Button
               color="rose"
               size="lg"
-              href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkr-download-section"
+              href="https://www.portalviscondedemaua.com/"
               target="_blank"
             >
-              Material Kit PRO
+              Portal Visconde de Mauá
             </Button>
             <Button
               color="rose"
               size="lg"
-              href="https://www.creative-tim.com/product/material-dashboard-pro-react?ref=mkr-download-section"
+              href="https://www.colegioict.com.br/"
               target="_blank"
             >
-              Material Dashboard PRO
+              Colégio ICT
             </Button>
           </GridItem>
         </GridContainer>
         <div className={classes.textCenter + " " + classes.sharingArea}>
           <GridContainer justify="center">
-            <h3>Thank you for supporting us!</h3>
+            <h3>Obrigado por conhecer nosso trabalho, fique ligado em nossas redes sociais!</h3>
           </GridContainer>
-          <Button color="twitter">
-            <i className={classes.socials + " fab fa-twitter"} /> Tweet
+          <Button color="twitter" href="https://mywhats.net/983292">
+
+            <i className={classes.socials + " fab fa-whatsapp"} /> WhatsApp
           </Button>
-          <Button color="facebook">
-            <i className={classes.socials + " fab fa-facebook-square"} /> Share
+          <Button color="facebook" href="https://www.facebook.com/ghdsites">
+            <i className={classes.socials + " fab fa-facebook-square"} /> Facebook
           </Button>
-          <Button color="google">
+          {/* <Button color="google">
             <i className={classes.socials + " fab fa-google-plus-g"} />
             Share
           </Button>
           <Button color="github">
             <i className={classes.socials + " fab fa-github"} /> Star
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>
