@@ -22,6 +22,10 @@ export default function ContatoPage(props) {
   return (
     <div>
       <h1>Contato</h1>
+      <h3>Formulário</h3>
+      <h4>Mapa</h4>
+      <h5>Rodapé</h5>
+
     </div>
   );
 }
