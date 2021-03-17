@@ -3,15 +3,8 @@ import React from "react";
 //import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
 // @material-ui/icons
-
-
-
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
-
-
-
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
