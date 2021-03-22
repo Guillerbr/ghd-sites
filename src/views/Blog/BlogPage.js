@@ -82,8 +82,8 @@ export default function Blog(props) {
               <h1 className={classes.title}>GHD Systems</h1>
               <h2>Blog</h2>
               <h3>
-               Contaremos algumas histórias e cases do nosso dia a dia. 
-               Aproximar você a nossa realidade e mostrar como podemos ajudar 
+                Contaremos algumas histórias e cases do nosso dia a dia.
+                Aproximar você a nossa realidade e mostrar como podemos ajudar
                a resolver seus problemas... {" "}
                 {/* <i className="fab fa-whatsapp" /> */}
               </h3>

@@ -55,7 +55,7 @@ export default function LandingPage(props) {
                 até marketing e consultoria de software.Envie sua mensagem via WhatsApp ou Facebook.
                 {/* <i className="fab fa-whatsapp" /> */}
               </h3>
-   
+
               <Button
                 color="success"
                 size="lg"
