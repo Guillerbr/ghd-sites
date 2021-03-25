@@ -45,6 +45,9 @@ export default function HeaderLinks(props) {
             <Link to="/profile-page" className={classes.dropdownLink}>
               Perfil
             </Link>,
+            <Link to="/marketing" className={classes.dropdownLink}>
+              Marketing
+            </Link>,
             <Link to="/blog" className={classes.dropdownLink}>
               Blog
             </Link>,
