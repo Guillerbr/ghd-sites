@@ -1,7 +1,7 @@
 {
   "name": "ghd-systems",
   "version": "0.0.1",
-  "description": "Frondend GHD Systems",
+  "description": "Frondend Reactjs - GHD Systems",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
@@ -21,7 +21,8 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "0.26.1",
-    "react-swipeable-views": "0.13.9"
+    "react-swipeable-views": "0.13.9",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/cli": "7.10.1",

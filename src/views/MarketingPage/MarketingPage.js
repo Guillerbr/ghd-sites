@@ -58,73 +58,79 @@ const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function Marketing(props) {
-  const classes = useStyles();
-  const { ...rest } = props;
-  return (
-    <div>
-      <Header
-        color="transparent"
-        routes={dashboardRoutes}
-        brand="GHD Marketing"
-        rightLinks={<HeaderLinks />}
-        fixed
-        changeColorOnScroll={{
-          height: 400,
-          color: "white",
-        }}
-        {...rest}
-      />
-      <Parallax filter image={require("assets/img/img000243.jpg")}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>GHD Systems</h1>
-              <h2>Blog</h2>
-              <h3>
-                Contaremos algumas histórias e cases do nosso dia a dia.
-                Aproximar você a nossa realidade e mostrar como podemos ajudar
-               a resolver seus problemas... {" "}
-                {/* <i className="fab fa-whatsapp" /> */}
-              </h3>
-              <h3>Contatos:</h3>
-              <br />
-              <Button
-                color="success"
-                size="lg"
-                href="https://mywhats.net/983292"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {/* <i className="fas fa-play" /> */}
-                <i className="fab fa-whatsapp" />
+export default function MarketingPage(props) {
+    const classes = useStyles();
+    const { ...rest } = props;
+    return (
+        <div>
+            <Header
+                color="transparent"
+                routes={dashboardRoutes}
+                brand="GHD Marketing"
+                rightLinks={<HeaderLinks />}
+                fixed
+                changeColorOnScroll={{
+                    height: 400,
+                    color: "white",
+                }}
+                {...rest}
+            />
+            <Parallax filter image={require("assets/img/img000243.jpg")}>
+                <div className={classes.container}>
+                    <GridContainer>
+                        <GridItem xs={12} sm={12} md={6}>
+                            <h1 className={classes.title}>GHD Marketing</h1>
+                            <h2>Marketing</h2>
+                            <h3>
+                                Trazemos para você novos clientes.
+                                Trabalhamos com Facebook, Instagram e Google. Uma ambiênte perfeito de marketing para seu negócio.
+                                Construindo estratégias eficazes para ajudá-lo a alcançar clientes e consumidores em potenciais em toda a web... {" "}
+                                <br></br>
+                                <i className="fab fa-whatsapp" />
+                                {" "}
+                                <i className="fab fa-instagram" />
+                                {" "}
+                                <i className="fab fa-facebook" />
+                                {" "}
+                            </h3>
+                            <h3>Solicite uma avaliação :</h3>
+                            <br />
+                            <Button
+                                color="success"
+                                size="lg"
+                                href="https://mywhats.net/983292"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {/* <i className="fas fa-play" /> */}
+                                <i className="fab fa-whatsapp" />
                 WhatsApp
               </Button>
-              <Button
-                color="info"
-                //severity="info"
-                size="lg"
-                href="https://www.facebook.com/ghdsites"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {/* <i className="fas fa-play" /> */}
-                <i className="fab fa-facebook" />
+                            <Button
+                                color="info"
+                                //severity="info"
+                                size="lg"
+                                href="https://www.facebook.com/ghdsites"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {/* <i className="fas fa-play" /> */}
+                                <i className="fab fa-facebook" />
                 Facebook
               </Button>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          {/* <ProductSection />
+                        </GridItem>
+                    </GridContainer>
+                </div>
+            </Parallax>
+            <div className={classNames(classes.main, classes.mainRaised)}>
+                <div className={classes.container}>
+                    {/* <ProductSection />
           <TeamSection />
           <WorkSection /> */}
+                </div>
+            </div>
+            <Footer />
         </div>
-      </div>
-      <Footer />
-    </div>
-  );
+    );
 }
 

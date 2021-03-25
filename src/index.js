@@ -11,7 +11,8 @@ import Blog from "views/Blog/BlogPage.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
-import Marketing from "views/MarketingPage/MarketingPage.js";
+import MarketingPage from "views/MarketingPage/MarketingPage.js";
+import DesignerPage from "views/DesignerPage/DesignerPage.js";
 import Map from "views/MapPage";
 import ContatoPage from "views/ContatoPage/ContatoPage.js";
 
@@ -23,7 +24,8 @@ ReactDOM.render(
       {/* <Route path="/landing-page" component={LandingPage} /> */}
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
-      <Route path="/marketing" component={Marketing} />
+      <Route path="/marketing" component={MarketingPage} />
+      <Route path="/designer" component={DesignerPage} />
       <Route path="/front-page" component={Components} />
       <Route path="/map" component={Map} />
       <Route path="/blog" component={Blog} />
