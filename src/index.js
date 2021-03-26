@@ -13,7 +13,7 @@ import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import MarketingPage from "views/MarketingPage/MarketingPage.js";
 import DesignerPage from "views/DesignerPage/DesignerPage.js";
-import Map from "views/MapPage";
+import Map from "views/MapPage/MapPage.js";
 import ContatoPage from "views/ContatoPage/ContatoPage.js";
 
 var hist = createBrowserHistory();
