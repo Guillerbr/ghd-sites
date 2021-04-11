@@ -10,6 +10,7 @@
     "@material-ui/icons": "4.9.1",
     "axios": "^0.21.1",
     "classnames": "2.2.6",
+    "google-maps": "^4.3.3",
     "history": "4.10.1",
     "moment": "2.26.0",
     "node-sass": "4.14.1",
