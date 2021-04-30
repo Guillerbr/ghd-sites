@@ -9,7 +9,20 @@ import debounce from "lodash/debounce";
 //google maps
 import { Loader } from "google-maps";
 
-const googleMapsLoader = new Loader(process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
+const googleMapsLoader = new Loader(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
+
+//const useStyles = makeStyles(styles);
+
+
+console.log(googleMapsLoader);
+
+// useEffect(() => {
+
+//     (async () => {
+//         await googleMapsLoader.load();
+
+//     })();
+// }, [])
 
 //import api from "../../services/api";
 //import { logout } from "../../services/auth";
@@ -23,9 +36,18 @@ const googleMapsLoader = new Loader(process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
 //import { Container, ButtonContainer, PointReference } from "./styles";
 
 
-class Map extends Component {
+//class Map extends Component {
+export default function Map(props) {
+
+    //const mapRef = useRef < google.maps.Map > ();
+
+    return (
+        <h1>Maps</h1>
+
+
+    );
 
 }
 
 
-export default Map;
+
