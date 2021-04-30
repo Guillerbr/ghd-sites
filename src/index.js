@@ -24,7 +24,7 @@ ReactDOM.render(
     <Switch>
       {/* <Route path="/landing-page" component={LandingPage} /> */}
       <Route path="/profile-page" component={ProfilePage} />
-      <Route path="/login-page" component={LoginPage} />
+      {/* <Route path="/login-page" component={LoginPage} /> */}
       <Route path="/marketing" component={MarketingPage} />
       <Route path="/designer" component={DesignerPage} />
       <Route path="/software" component={SoftwarePage} />
