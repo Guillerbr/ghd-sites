@@ -39,11 +39,14 @@ export default function HeaderLinks(props) {
             <Link to="/" className={classes.dropdownLink}>
               Home
             </Link>,
-            <Link to="/front-page" className={classes.dropdownLink}>
+            <Link to="/empresa" className={classes.dropdownLink}>
               Empresa
             </Link>,
             <Link to="/profile-page" className={classes.dropdownLink}>
               Perfil
+            </Link>,
+            <Link to="/software" className={classes.dropdownLink}>
+              Software
             </Link>,
             <Link to="/marketing" className={classes.dropdownLink}>
               Marketing
@@ -60,9 +63,9 @@ export default function HeaderLinks(props) {
             <Link to="/contato" className={classes.dropdownLink}>
               Contato
               </Link>,
-            <Link to="/login-page" className={classes.dropdownLink}>
-              Login
-            </Link>,
+            // <Link to="/login-page" className={classes.dropdownLink}>
+            //   Login
+            // </Link>,
           ]}
         />
       </ListItem>

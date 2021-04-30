@@ -58,7 +58,7 @@ const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function ContatoPage(props) {
+export default function SoftwarePage(props) {
     const classes = useStyles();
     const { ...rest } = props;
     return (
@@ -66,7 +66,7 @@ export default function ContatoPage(props) {
             <Header
                 color="transparent"
                 routes={dashboardRoutes}
-                brand="GHD Suporte"
+                brand="GHD Software"
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
@@ -79,8 +79,8 @@ export default function ContatoPage(props) {
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>GHD Central Suporte</h1>
-                            <h2>Contato</h2>
+                            <h1 className={classes.title}>GHD Software</h1>
+                            <h2>Software</h2>
                             <h3>
                                 Trazemos para você novos clientes.
                                 Trabalhamos com Facebook, Instagram e Google. Uma ambiênte perfeito de marketing para seu negócio.
