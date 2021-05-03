@@ -1,40 +1,8 @@
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-
-// @material-ui/icons
-
-
-// core components
-// import Header from "components/Header/Header.js";
-// import HeaderLinks from "components/Header/HeaderLinks.js";
-// import Footer from "components/Footer/Footer.js";
-// import GridContainer from "components/Grid/GridContainer.js";
-// import GridItem from "components/Grid/GridItem.js";
-// import Button from "components/CustomButtons/Button.js";
-// import Card from "components/Card/Card.js";
-// import CardBody from "components/Card/CardBody.js";
-// import CardHeader from "components/Card/CardHeader.js";
-// import CardFooter from "components/Card/CardFooter.js";
-// import CustomInput from "components/CustomInput/CustomInput.js";
-
-// import styles from "assets/jss/material-kit-react/views/loginPage.js";
-// import image from "assets/img/bg7.jpg";
-// const useStyles = makeStyles(styles);
-
-// export default function Blog() {
-//   return (
-//     <div>
-//       <h1>BLOG ROUTER</h1>
-//     </div>
-//   );
-// }
-
-
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
-//import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
 
@@ -66,7 +34,7 @@ export default function SoftwarePage(props) {
             <Header
                 color="transparent"
                 routes={dashboardRoutes}
-                brand="GHD Software"
+                brand="GHD Agency"
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
@@ -75,26 +43,19 @@ export default function SoftwarePage(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter image={require("assets/img/img000243.jpg")}>
+            <Parallax filter image={require("assets/img/landing-bg.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>GHD Software</h1>
-                            <h2>Software</h2>
+                            <h2>Engenharia e Desenvolvimento de Software</h2>
                             <h3>
-                                Trazemos para você novos clientes.
-                                Trabalhamos com Facebook, Instagram e Google. Uma ambiênte perfeito de marketing para seu negócio.
-                                Construindo estratégias eficazes para ajudá-lo a alcançar clientes e consumidores em potenciais em toda a web... {" "}
-                                <br></br>
-                                <i className="fab fa-whatsapp" />
-                                {" "}
-                                <i className="fab fa-instagram" />
-                                {" "}
-                                <i className="fab fa-facebook" />
-                                {" "}
+                                Empresa de informática que há 5 anos realizando serviços
+                                para empresas. Criação de Sites e Sistemas, seja portal
+                                de curso, sistema de estoque, loja virtual ou algo mais complexo..
+                {/* <i className="fab fa-whatsapp" /> */}
                             </h3>
-                            <h3>Solicite uma avaliação :</h3>
-                            <br />
+
                             <Button
                                 color="success"
                                 size="lg"
@@ -104,11 +65,10 @@ export default function SoftwarePage(props) {
                             >
                                 {/* <i className="fas fa-play" /> */}
                                 <i className="fab fa-whatsapp" />
-                WhatsApp
+                Whats App
               </Button>
                             <Button
                                 color="info"
-                                //severity="info"
                                 size="lg"
                                 href="https://www.facebook.com/ghdsites"
                                 target="_blank"
@@ -124,13 +84,9 @@ export default function SoftwarePage(props) {
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    {/* <ProductSection />
-          <TeamSection />
-          <WorkSection /> */}
                 </div>
             </div>
             <Footer />
         </div>
     );
 }
-
