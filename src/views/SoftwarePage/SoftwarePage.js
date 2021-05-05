@@ -52,7 +52,7 @@ export default function SoftwarePage(props) {
                             <h3>
                                 Empresa de informática que há 5 anos realizando serviços
                                 para empresas. Criação de Sites e Sistemas, seja portal
-                                de curso, sistema de estoque, loja virtual ou algo mais complexo..
+                                de curso, sistema de estoque, loja virtual ou algo mais complexo.
                 {/* <i className="fab fa-whatsapp" /> */}
                             </h3>
 
