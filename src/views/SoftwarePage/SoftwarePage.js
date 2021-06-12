@@ -53,7 +53,7 @@ export default function SoftwarePage(props) {
                                 Empresa de informática que há 5 anos realizando serviços
                                 para empresas. Criação de Sites e Sistemas, seja portal
                                 de curso, sistema de estoque, loja virtual ou algo mais complexo.
-                {/* <i className="fab fa-whatsapp" /> */}
+                                {/* <i className="fab fa-whatsapp" /> */}
                             </h3>
 
                             <Button
@@ -65,8 +65,8 @@ export default function SoftwarePage(props) {
                             >
                                 {/* <i className="fas fa-play" /> */}
                                 <i className="fab fa-whatsapp" />
-                Whats App
-              </Button>
+                                Whats App
+                            </Button>
                             <Button
                                 color="info"
                                 size="lg"
@@ -76,8 +76,8 @@ export default function SoftwarePage(props) {
                             >
                                 {/* <i className="fas fa-play" /> */}
                                 <i className="fab fa-facebook" />
-                Facebook
-              </Button>
+                                Facebook
+                            </Button>
                         </GridItem>
                     </GridContainer>
                 </div>
