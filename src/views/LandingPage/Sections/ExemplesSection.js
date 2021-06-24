@@ -10,8 +10,9 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
+// images import
 import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+import profile from "assets/img/admindashb.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -37,7 +38,7 @@ export default function ExamplesSection() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Ver Site
                             </Button>
                         </Link>
                     </GridItem>
@@ -55,7 +56,7 @@ export default function ExamplesSection() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View profile page
+                                Ver Site
                             </Button>
                         </Link>
                     </GridItem>

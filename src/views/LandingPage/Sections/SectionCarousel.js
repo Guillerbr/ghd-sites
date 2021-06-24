@@ -10,6 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
+// images corrousel lading page
 import image1 from "assets/img/ghd_banner.png";
 import image2 from "assets/img/ghd_banner_2.jpg";
 import image3 from "assets/img/ghd_banner_3.png";
