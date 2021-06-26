@@ -1,7 +1,7 @@
 {
   "name": "ghd-systems",
-  "version": "0.0.1",
-  "description": "Frondend Reactjs - GHD Systems",
+  "version": "1.0.1",
+  "description": "Frontend Reactjs - GHD Systems",
   "private": true,
   "main": "src/index.js",
   "dependencies": {

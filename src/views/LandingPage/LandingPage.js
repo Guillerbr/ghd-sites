@@ -17,14 +17,13 @@ import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
-// Sections for this page
+// Sections Components
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 import InfoSection from "./Sections/InfoSection.js";
 import ExamplesSection from "./Sections/ExemplesSection.js";
 import SectionCarousel from "./Sections/SectionCarousel.js";
-
 
 const dashboardRoutes = [];
 
@@ -54,15 +53,15 @@ export default function LandingPage(props) {
               <h1 className={classes.title}>GHD Systems</h1>
               <h2>Agência Digital</h2>
               <h3>
-                Empresa focada em desenvolver
-                produtos digitais, desde sites e sistemas web,
-                até marketing e consultoria de software.Envie sua mensagem via WhatsApp ou Facebook.
+                Focados em desenvolver
+                produtos digitais, sites e sistemas,
+                marketing .Conheça nosso WhatsApp ou Facebook.
                 {/* <i className="fab fa-whatsapp" /> */}
               </h3>
 
               <Button
                 color="success"
-                size="lg"
+                size="md"
                 href="https://mywhats.net/983292"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,7 +72,7 @@ export default function LandingPage(props) {
               </Button>
               <Button
                 color="info"
-                size="lg"
+                size="md"
                 href="https://www.facebook.com/ghdsites"
                 target="_blank"
                 rel="noopener noreferrer"
