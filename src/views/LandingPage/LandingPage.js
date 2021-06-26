@@ -3,7 +3,6 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
 // @material-ui/icons
 
 // core components
@@ -50,12 +49,12 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>GHD Systems</h1>
+              <h1 className={classes.title}>Soluções para negócios digitais</h1>
               <h2>Agência Digital</h2>
               <h3>
                 Focados em desenvolver
-                produtos digitais, sites e sistemas,
-                marketing .Conheça nosso WhatsApp ou Facebook.
+                produtos digitais, sites e designer e
+                marketing. Conheça nossos serviços, WhatsApp ou Facebook.
                 {/* <i className="fab fa-whatsapp" /> */}
               </h3>
 

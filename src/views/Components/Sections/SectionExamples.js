@@ -10,8 +10,10 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
+// images page
 import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+import lading2 from "assets/img/admindashb-2.jpg";
+// import profile from "assets/img/profile.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -44,7 +46,7 @@ export default function SectionExamples() {
           <GridItem xs={12} sm={12} md={6}>
             <Link to="profile-page" className={classes.link}>
               <img
-                src={profile}
+                src={lading2}
                 alt="..."
                 className={
                   classes.imgRaised +

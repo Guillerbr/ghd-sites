@@ -11,10 +11,11 @@ import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
 // images corrousel lading page
-import image1 from "assets/img/ghd_banner.png";
-import image2 from "assets/img/ghd_banner_2.jpg";
-import image3 from "assets/img/ghd_banner_3.png";
-//import image4 from "assets/img/.png";
+import image1 from "assets/img/admindashb-5.png";
+import image2 from "assets/img/admindashb-4.png";
+import image3 from "assets/img/admindashb-3.jpg";
+// import image3 from "assets/img/ghd_banner_3.png";
+// import image4 from "assets/img/.png";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
@@ -28,7 +29,7 @@ export default function SectionCarousel() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
     };
     return (
         <div className={classes.section}>

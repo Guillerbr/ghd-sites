@@ -10,10 +10,12 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/ghd_banner.png";
-import image2 from "assets/img/ghd_banner_2.jpg";
-import image3 from "assets/img/ghd_banner_3.png";
-//import image4 from "assets/img/.png";
+// images page
+import image1 from "assets/img/admindashb-5.png";
+import image2 from "assets/img/admindashb-4.png";
+import image3 from "assets/img/admindashb-3.jpg";
+// import image3 from "assets/img/ghd_banner_3.png";
+//import image4 from "assets/img/admindashb-2.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
@@ -27,7 +29,7 @@ export default function SectionCarousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
   };
   return (
     <div className={classes.section}>
