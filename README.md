@@ -12,3 +12,7 @@
 ## Production Build
 
 `npm run-script build`
+
+# Git -Github
+
+`git push`
