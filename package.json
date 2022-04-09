@@ -12,7 +12,7 @@
     "classnames": "2.2.6",
     "google-maps": "^4.3.3",
     "history": "4.10.1",
-    "moment": "2.26.0",
+    "moment": "2.29.2",
     "node-sass": "4.14.1",
     "nouislider": "14.5.0",
     "polished": "^4.1.1",
